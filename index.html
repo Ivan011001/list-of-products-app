@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <img loading="lazy" width="150" height="150" src="./My project.png" alt="cat" />
+      <form action="">
+        <input
+          type="text"
+          name="productName"
+          id="product-name"
+          placeholder="Milk"
+          autocomplete="off"
+        />
+        <button name="submitProduct" type="submit" id="add-button">Add to cart</button>
+      </form>
+      <div class="product-list-container">
+        <ul class="product-list"></ul>
+      </div>
+    </div>
+  </body>
+</html>
